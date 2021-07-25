@@ -6,8 +6,8 @@ namespace ExercicioException.Entities
     {
         public int Number { get; set; }
         public string Holder { get; set; }
-        public double Balance { get; set; }
-        public double WithdrawLimit { get; set; }
+        public double Balance { get; private set; }
+        public double WithdrawLimit { get; private set; }
 
         public Account()
         {
